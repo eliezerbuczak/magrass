@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'MaderaBold';
+    src: url('../fonts/Monotype  - Madera Bold.ttf') format('truetype');
+}
+.font-madera-bold {
+    font-family: 'MaderaBold', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaBoldItalic';
+    src: url('../fonts/Monotype  - Madera Bold Italic.ttf') format('truetype');
+}
+.font-madera-bold-italic {
+    font-family: 'MaderaBoldItalic', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaExtraBold';
+    src: url('../fonts/Monotype  - Madera Extra Bold.ttf') format('truetype');
+}
+.font-madera-extra-bold {
+    font-family: 'MaderaExtraBold', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaExtraBoldItalic';
+    src: url('../fonts/Monotype  - Madera Extra Bold Italic.ttf') format('truetype');
+}
+.font-madera-extra-bold-italic {
+    font-family: 'MaderaExtraBoldItalic', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaHairline';
+    src: url('../fonts/Monotype  - Madera Hairline.ttf') format('truetype');
+}
+.font-madera-hairline {
+    font-family: 'MaderaHairline', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaHairlineItalic';
+    src: url('../fonts/Monotype  - Madera Hairline Italic.ttf') format('truetype');
+}
+.font-madera-hairline-italic {
+    font-family: 'MaderaHairlineItalic', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaItalic';
+    src: url('../fonts/Monotype  - Madera Italic.ttf') format('truetype');
+}
+.font-madera-italic {
+    font-family: 'MaderaItalic', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaLight';
+    src: url('../fonts/Monotype  - Madera Light.ttf') format('truetype');
+}
+.font-madera-light {
+    font-family: 'MaderaLight', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaLightItalic';
+    src: url('../fonts/Monotype  - Madera Light Italic.ttf') format('truetype');
+}
+.font-madera-light-italic {
+    font-family: 'MaderaLightItalic', sans-serif;
+}
+
+@font-face {
+    font-family: 'MaderaMedium';
+    src: url('../fonts/Monotype  - Madera Medium.ttf') format('truetype');
+}
+.font-madera-medium {
+    font-family: 'MaderaMedium', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaMediumItalic';
+    src: url('../fonts/Monotype  - Madera Medium Italic.ttf') format('truetype');
+}
+.font-madera-medium-italic {
+    font-family: 'MaderaMediumItalic', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaRegular';
+    src: url('../fonts/Monotype  - Madera Regular.ttf') format('truetype');
+}
+.font-madera-regular {
+    font-family: 'MaderaRegular', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaThin';
+    src: url('../fonts/Monotype  - Madera Thin.ttf') format('truetype');
+}
+.font-madera-thin {
+    font-family: 'MaderaThin', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaThinItalic';
+    src: url('../fonts/Monotype  - Madera Thin Italic.ttf') format('truetype');
+}
+.font-madera-thin-italic {
+    font-family: 'MaderaThinItalic', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaUltraLight';
+    src: url('../fonts/Monotype  - Madera Ultra Light.ttf') format('truetype');
+}
+.font-madera-ultra-light {
+    font-family: 'MaderaUltraLight', sans-serif;
+}
+@font-face {
+    font-family: 'MaderaUltraLightItalic';
+    src: url('../fonts/Monotype  - Madera Ultra Light Italic.ttf') format('truetype');
+}
+.font-madera-ultra-light-italic {
+    font-family: 'MaderaUltraLightItalic', sans-serif;
+}
