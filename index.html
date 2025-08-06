@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magrass Clinic Medic</title>
+    <title>Magrass Assis Chateaubriand</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/fb0b422126.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/fonts.css">
@@ -27,11 +27,11 @@
     </style>
 
 </head>
-<body class="bg-verde-agua-100 border-verde-agua-50 text-gray-800">
+<body class="bg-verde-agua-100 border-verde-agua-50 text-gray-800" id="topo">
 
 <!-- Header -->
 <!-- Header fixo e responsivo -->
-<header class="bg-verde-agua-400 text-white py-4 px-4 fixed top-0 w-full z-50 shadow" id="topo">
+<header class="bg-verde-agua-400 text-white py-4 px-4 fixed top-0 w-full z-50 shadow">
     <div class="container mx-auto flex flex-wrap items-center justify-between gap-4">
 
         <!-- Logo (visível apenas em telas md pra cima) -->
@@ -56,9 +56,9 @@
 <section class="bg-image-dna text-white text-center min-h-screen bg-cover bg-center relative">
     <!-- Camada com fundo translúcido -->
     <div class="absolute inset-0 bg-verde-agua-200/70 flex items-center justify-center px-4">
-        <div class="max-w-3xl text-center">
+        <div class="max-w-5xl text-center">
             <img src="./assets/img/logo-magrass.svg" width="284" height="81" alt="" class="mx-auto mb-6">
-            <h2 class="text-4xl md:text-4xl font-extrabold mb-4 font-madera-bold">Transforme sua vida com MGeneticss Clinic Medic</h2>
+            <h2 class="text-3xl md:text-7xl mb-4 font-madera-bold">Transforme sua vida com MGeneticss Clinic Medic</h2>
             <p class="text-lg md:text-xl font-madera-medium">Emagrecimento ultrapersonalizado com Nutrigenética, Tirzepatida e Cuidado 360º</p>
         </div>
     </div>
@@ -67,42 +67,95 @@
 <!-- Features -->
 <section class="py-12 bg-gray-100">
     <div class="max-w-6xl mx-auto px-4">
-        <h3 class="text-2xl font-bold text-center mb-8">Features</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow border-verde-agua-400 border">
-                <h4 class="font-semibold mb-2">Personalized Nutrition Plans</h4>
-                <p>Plano de nutrição personalizado com base nas suas necessidades e objetivos únicos.</p>
+        <h3 class="text-4xl font-madera-bold text-center mb-6 text-verde-agua-400">A revolução do emagrecimento que une ciência, saúde e resultados reais</h3>
+        <h5 class="text-2xl font-madera-medium text-verde-agua-300 text-center mb-8">Descubra o que há de mais inovador no emagrecimento inteligente:</h5>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-syringe text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">Tirzepatida</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                    Reduz o apetite, regula a glicemia e promove perda de gordura com respaldo científico.
+                </p>
             </div>
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow">
-                <h4 class="font-semibold mb-2">Guidance from Certified Nutritionists</h4>
-                <p>Orientação de nutricionistas experientes durante toda a jornada.</p>
+
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-dna text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">MGeneticss</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                    Análise genética que revela como o seu corpo reage à alimentação, metabolismo e muito mais.
+                </p>
             </div>
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow">
-                <h4 class="font-semibold mb-2">Food Tracking and Analysis</h4>
-                <p>Acompanhe sua alimentação e obtenha insights para melhorar hábitos.</p>
+
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-apple-whole text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">Nutrição personalizada</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                    Cardápios exclusivos criados com base no seu DNA e estilo de vida.
+                </p>
             </div>
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow">
-                <h4 class="font-semibold mb-2">Meal Planning and Recipes</h4>
-                <p>Receitas saudáveis e planos personalizados para facilitar sua alimentação.</p>
+
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-clock text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">Acompanhamento médico 24h</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                     Você nunca estará sozinha. Suporte clínico online todos os dias.
+                </p>
             </div>
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow">
-                <h4 class="font-semibold mb-2">Lifestyle and Behavior Coaching</h4>
-                <p>Coaching de estilo de vida para mudanças duradouras.</p>
+
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-gauge text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">Cuidado 360º</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                    Mudanças reais no estilo de vida, na saúde metabólica e na autoestima.
+                </p>
             </div>
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-6 rounded shadow">
-                <h4 class="font-semibold mb-2">Nutritional Education and Workshops</h4>
-                <p>Aprenda mais sobre nutrição com oficinas e materiais educativos.</p>
+
+            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
+                        <i class="fa-solid fa-spa text-white text-lg"></i>
+                    </div>
+                    <h4 class="font-madera-medium text-verde-agua-400 text-lg">Estética avançada</h4>
+                </div>
+
+                <p class="text-sm font-madera-regular text-verde-agua-400">
+                    Tratamentos para gordura localizada, flacidez, retenção, celulite e outros sinais do tempo.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Blog -->
+<!--
 <section class="py-12 bg-verde-agua-100 border-verde-agua-50">
     <div class="max-w-6xl mx-auto px-4">
         <h3 class="text-2xl font-bold text-center mb-8">Our Blogs</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-            <!-- Blog Post Example -->
             <div class="bg-gray-50 p-4 rounded shadow">
                 <img src="https://via.placeholder.com/600x400" class="mb-4 rounded" alt="">
                 <h4 class="font-semibold text-lg mb-2">The Benefits of Hydration for Weight Loss</h4>
@@ -117,7 +170,6 @@
     </div>
 </section>
 
-<!-- Testimonials -->
 <section class="bg-gray-100 py-12">
     <div class="max-w-6xl mx-auto px-4 text-center">
         <h3 class="text-2xl font-bold mb-8">Our Testimonials</h3>
@@ -138,26 +190,22 @@
     </div>
 </section>
 
-<!-- Pricing -->
 <section class="py-12 bg-verde-agua-100 border-verde-agua-50">
     <div class="max-w-6xl mx-auto px-4 text-center">
         <h3 class="text-2xl font-bold mb-8">Our Pricing</h3>
         <div class="grid md:grid-cols-3 gap-6">
-            <!-- Basic Plan -->
             <div class="border p-6 rounded shadow">
                 <h4 class="text-xl font-semibold mb-2">Basic Plan</h4>
                 <p class="mb-4 text-sm">Plano inicial com coaching, acesso ao app e suporte por e-mail.</p>
                 <p class="text-2xl font-bold mb-4">$49<span class="text-sm">/mês</span></p>
                 <a href="#" class="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700">Choose Plan</a>
             </div>
-            <!-- Premium Plan -->
             <div class="border p-6 rounded shadow">
                 <h4 class="text-xl font-semibold mb-2">Premium Plan</h4>
                 <p class="mb-4 text-sm">Consultas por vídeo, suporte prioritário e receitas personalizadas.</p>
                 <p class="text-2xl font-bold mb-4">$79<span class="text-sm">/mês</span></p>
                 <a href="#" class="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700">Choose Plan</a>
             </div>
-            <!-- Ultimate Plan -->
             <div class="border p-6 rounded shadow">
                 <h4 class="text-xl font-semibold mb-2">Ultimate Plan</h4>
                 <p class="mb-4 text-sm">Coaching completo com suporte 24h e oficinas nutricionais.</p>
@@ -167,7 +215,7 @@
         </div>
     </div>
 </section>
-
+ -->
 <!-- Footer -->
 <footer class="bg-verde-agua-400 text-white text-sm px-6 py-6">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
