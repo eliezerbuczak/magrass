@@ -27,21 +27,22 @@
     </style>
 
 </head>
-<body class="bg-verde-agua-100 border-verde-agua-50 text-gray-800" id="topo">
+<body id="topo">
 
 <!-- Header -->
 <!-- Header fixo e responsivo -->
 <header class="bg-verde-agua-400 text-white py-4 px-4 fixed top-0 w-full z-50 shadow">
     <div class="container mx-auto flex flex-wrap items-center justify-between gap-4">
-
-        <div class="hidden md:block flex-shrink-0">
-            <img src="./assets/img/logo-magrass.svg" width="100" height="36" alt="Logo MagraSS">
+        <div class="flex-shrink-0">
+            <img src="./assets/img/logo-magrass.svg" alt="Logo MagraSS"
+                 class="w-24 h-auto md:w-28 lg:w-32">
         </div>
+
     </div>
 </header>
 
 <a href="https://wa.me/5544999162628?text=Ol%C3%A1!%20Vi%20seu%20an%C3%BAncio%20e%20gostaria%20de%20saber%20mais!"
-   class="fixed bottom-4 right-4 bg-green-500 text-white w-10 h-10 md:w-14 md:h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 z-[2]"
+   class="fixed bottom-4 right-4 bg-green-500 text-white w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 z-[2]"
    title="Fale conosco no WhatsApp" target="_blank">
     <i class="fa-brands fa-whatsapp text-xl md:text-2xl"></i>
 </a>
@@ -50,23 +51,51 @@
 
 <!-- Hero -->
 <section class="bg-image-dna text-white text-center min-h-screen bg-cover bg-center relative">
-    <!-- Camada com fundo translúcido -->
-    <div class="absolute inset-0 bg-verde-agua-200/70 flex items-center justify-center px-4">
-        <div class="max-w-5xl text-center">
+    <!-- Camada translúcida -->
+    <div class="absolute inset-0 bg-verde-agua-200/70 flex flex-col items-center justify-center px-4">
+        <div class="max-w-5xl text-center mb-6">
             <img src="./assets/img/logo-magrass.svg" width="284" height="81" alt="" class="mx-auto mb-6">
             <h2 class="text-3xl md:text-7xl mb-4 font-madera-bold">Transforme sua vida com MGeneticss Clinic Medic</h2>
             <p class="text-lg md:text-xl font-madera-medium">Emagrecimento ultrapersonalizado com Nutrigenética, Tirzepatida e Cuidado 360º</p>
         </div>
+
+        <!-- Botão WhatsApp -->
+        <a href="https://wa.me/5544999162628?text=Ol%C3%A1!%20Quero%20saber%20mais!"
+           target="_blank"
+           class="bg-green-500 hover:bg-green-600 text-white font-madera-medium px-6 py-3 rounded-full flex items-center gap-2 shadow-lg text-lg">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            Enviar uma mensagem
+        </a>
     </div>
 </section>
 
+<section class="py-12 bg-verde-agua-50/20  flex flex-col items-center">
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-madera-bold text-verde-agua-400 mb-6 text-center">
+        O que a Magrass faz?
+    </h2>
+
+    <!-- Vídeo -->
+    <div class="w-full max-w-4xl aspect-video px-6">
+        <iframe
+                class="w-full h-full rounded-xl shadow-lg"
+                src="https://www.youtube.com/embed/q5DXMr5v48k"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
 <!-- Features -->
-<section class="py-12 bg-gray-100">
+<section class="py-12 bg-white">
     <div class="max-w-6xl mx-auto px-4">
         <h3 class="text-4xl font-madera-bold text-center mb-6 text-verde-agua-400">A revolução do emagrecimento que une ciência, saúde e resultados reais</h3>
         <h5 class="text-2xl font-madera-medium text-verde-agua-300 text-center mb-8">Descubra o que há de mais inovador no emagrecimento inteligente:</h5>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-syringe text-white text-lg"></i>
@@ -79,7 +108,7 @@
                 </p>
             </div>
 
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-dna text-white text-lg"></i>
@@ -92,7 +121,7 @@
                 </p>
             </div>
 
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-apple-whole text-white text-lg"></i>
@@ -105,7 +134,7 @@
                 </p>
             </div>
 
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-clock text-white text-lg"></i>
@@ -118,7 +147,7 @@
                 </p>
             </div>
 
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-gauge text-white text-lg"></i>
@@ -131,7 +160,7 @@
                 </p>
             </div>
 
-            <div class="bg-verde-agua-100 border-verde-agua-50 p-9 rounded border text-left">
+            <div class="bg-verde-agua-100/50 border-verde-agua-50 p-9 rounded border text-left">
                 <div class="flex items-center gap-3 mb-2">
                     <div class="w-10 h-10 flex items-center justify-center bg-verde-agua-400 rounded-lg ">
                         <i class="fa-solid fa-spa text-white text-lg"></i>
@@ -146,7 +175,7 @@
         </div>
     </div>
 </section>
-<section class="py-12 bg-laranja-100">
+<section class="py-12 bg-verde-agua-50/20">
     <div class="max-w-6xl mx-auto px-4">
         <h3 class="text-4xl font-madera-bold text-center mb-6 text-verde-agua-400">Nossa Equipe</h3>
 
@@ -154,43 +183,67 @@
         <div class="swiper">
             <div class="swiper-wrapper">
 
-                <!-- Slide -->
-                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50">
+                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50
+            w-72 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem]">
                     <div class="flex flex-col md:flex-row">
-                        <img src="./assets/img/pessoa1.jpg" alt="Maria Silva" class="w-full md:w-1/3 aspect-[3/4] object-cover">
-                        <div class="p-4 flex-1">
-                            <h4 class="text-verde-agua-400 font-madera-bold text-lg">Maria Silva</h4>
-                            <p class="text-verde-agua-300 font-madera-medium text-sm">Nutricionista</p>
-                            <p class="text-cinza-500 text-sm mt-2">Especialista em nutrição personalizada com base no DNA.</p>
+                        <img src="./assets/img/profissional_1.jpg" alt="Maria Silva"
+                             class="w-full md:w-1/3 h-auto object-contain">
+
+                        <div class="p-6 flex-1">
+                            <h4 class="text-verde-agua-400 font-madera-bold text-xl md:text-2xl lg:text-3xl">Maria Silva</h4>
+                            <p class="text-verde-agua-300 font-madera-medium text-base md:text-lg">Nutricionista</p>
+                            <p class="text-cinza-500 text-base md:text-lg mt-2">
+                                Especialista em nutrição personalizada com base no DNA.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50">
-                    <img src="./assets/img/pessoa2.jpg" alt="João Santos" class="w-full aspect-[3/4] object-cover">
-                    <div class="p-4">
-                        <h4 class="text-verde-agua-400 font-madera-bold text-lg">João Santos</h4>
-                        <p class="text-verde-agua-300 font-madera-medium text-sm">Médico</p>
-                        <p class="text-cinza-500 text-sm mt-2">Responsável pelo acompanhamento clínico 24h.</p>
+                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50
+            w-72 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem]">
+                    <div class="flex flex-col md:flex-row">
+                        <img src="./assets/img/profissional_1.jpg" alt="Maria Silva"
+                             class="w-full md:w-1/3 h-auto object-contain">
+
+                        <div class="p-6 flex-1">
+                            <h4 class="text-verde-agua-400 font-madera-bold text-xl md:text-2xl lg:text-3xl">Maria Silva</h4>
+                            <p class="text-verde-agua-300 font-madera-medium text-base md:text-lg">Nutricionista</p>
+                            <p class="text-cinza-500 text-base md:text-lg mt-2">
+                                Especialista em nutrição personalizada com base no DNA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50
+            w-72 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem]">
+                    <div class="flex flex-col md:flex-row">
+                        <img src="./assets/img/profissional_1.jpg" alt="Maria Silva"
+                             class="w-full md:w-1/3 h-auto object-contain">
+
+                        <div class="p-6 flex-1">
+                            <h4 class="text-verde-agua-400 font-madera-bold text-xl md:text-2xl lg:text-3xl">Maria Silva</h4>
+                            <p class="text-verde-agua-300 font-madera-medium text-base md:text-lg">Nutricionista</p>
+                            <p class="text-cinza-500 text-base md:text-lg mt-2">
+                                Especialista em nutrição personalizada com base no DNA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50
+            w-72 sm:w-80 md:w-[28rem] lg:w-[32rem] xl:w-[36rem]">
+                    <div class="flex flex-col md:flex-row">
+                        <img src="./assets/img/profissional_1.jpg" alt="Maria Silva"
+                             class="w-full md:w-1/3 h-auto object-contain md:object-cover">
+
+                        <div class="p-6 flex-1">
+                            <h4 class="text-verde-agua-400 font-madera-bold text-xl md:text-2xl lg:text-3xl">Maria Silva</h4>
+                            <p class="text-verde-agua-300 font-madera-medium text-base md:text-lg">Nutricionista</p>
+                            <p class="text-cinza-500 text-base md:text-lg mt-2">
+                                Especialista em nutrição personalizada com base no DNA.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50">
-                    <img src="./assets/img/pessoa3.jpg" alt="Ana Costa" class="w-full aspect-[3/4] object-cover">
-                    <div class="p-4">
-                        <h4 class="text-verde-agua-400 font-madera-bold text-lg">Ana Costa</h4>
-                        <p class="text-verde-agua-300 font-madera-medium text-sm">Esteticista</p>
-                        <p class="text-cinza-500 text-sm mt-2">Atua em tratamentos avançados para estética corporal.</p>
-                    </div>
-                </div>
-
-                <div class="swiper-slide bg-white rounded-xl shadow-md overflow-hidden border border-verde-agua-50">
-                    <img src="./assets/img/pessoa4.jpg" alt="Carlos Pereira" class="w-full aspect-[3/4] object-cover">
-                    <div class="p-4">
-                        <h4 class="text-verde-agua-400 font-madera-bold text-lg">Carlos Pereira</h4>
-                        <p class="text-verde-agua-300 font-madera-medium text-sm">Personal Trainer</p>
-                        <p class="text-cinza-500 text-sm mt-2">Foca no bem-estar e condicionamento físico.</p>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -241,16 +294,18 @@
 
 <script>
   const swiper = new Swiper('.swiper', {
-    slidesPerView: 1.1, // mostra 1 inteiro + pedacinho do próximo
-    spaceBetween: 16,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
     grabCursor: true,
-    loop: true,
-    breakpoints: {
-      640: { slidesPerView: 2.1 },
-      1024: { slidesPerView: 3.1 },
-      1280: { slidesPerView: 4 }
-    }
+    loop: false,
+    // Se quiser setinhas:
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
+
 </script>
 
 </html>
