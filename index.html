@@ -47,6 +47,10 @@
     <i class="fa-brands fa-whatsapp text-xl md:text-2xl"></i>
 </a>
 
+<a href="#topo" class="fixed bottom-20 right-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full shadow-lg z-[2]" title="Ir para o topo">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
 
 
 <!-- Hero -->
@@ -69,23 +73,21 @@
     </div>
 </section>
 
-<section class="py-12 bg-verde-agua-50/20  flex flex-col items-center">
+<section class="py-12 bg-verde-agua-50/20  flex flex-col items-center px-6">
     <!-- Título -->
     <h2 class="text-3xl md:text-4xl font-madera-bold text-verde-agua-400 mb-6 text-center">
         O que a Magrass faz?
     </h2>
 
     <!-- Vídeo -->
-    <div class="w-full max-w-4xl aspect-video px-6">
-        <iframe
-                class="w-full h-full rounded-xl shadow-lg"
-                src="https://www.youtube.com/embed/q5DXMr5v48k"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-        </iframe>
+    <div class="w-full max-w-4xl aspect-video overflow-hidden rounded-xl shadow-lg">
+        <video class="w-full h-full block" controls>
+            <source src="./assets/videos/meu-video.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
     </div>
+
+
 </section>
 
 
@@ -253,16 +255,7 @@
 <footer class="bg-verde-agua-400 text-white text-sm px-6 py-6">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
 
-        <!-- Coluna esquerda -->
-        <div class="flex items-center gap-4">
-            <!-- Logo -->
             <img src="./assets/img/logo-magrass.svg" alt="Logo MagraSS" class="w-32 h-auto">
-
-            <!-- Botão voltar ao topo -->
-            <a href="#topo" class="text-white text-xl hover:text-white/80" title="Ir para o topo">
-                <i class="fas fa-arrow-up"></i>
-            </a>
-        </div>
 
         <!-- Contatos -->
         <div class="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
